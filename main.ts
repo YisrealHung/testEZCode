@@ -569,7 +569,7 @@ namespace ezstartkit {
 
     //% weight=7
     //% deg.min=0 deg.max=360
-    //% blockId="OLED_circle" block="OLED draw a circle at|x %x|y %y|radius: %r|degree: %deg"
+    //% blockId="OLED_circle" block="OLED draw a circle at|x %x|y %y|radius %r|degree %deg"
     export function oled_circle(x: number, y: number, r: number, deg: number, color: number = 1) {
         oled_font_size(0)
         let list = [];

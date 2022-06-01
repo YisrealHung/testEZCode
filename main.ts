@@ -490,7 +490,7 @@ namespace ezstartkit {
     }
 
     //% weight=7
-    //% blockId="OLED_draw_line" block="OLED draw a line at|x1 %x1|y1 %y1|and x2 %x2|y2 %y2"
+    //% blockId="OLED_draw_line" block="OLED draw a line at|x1 %x1|y1 %y1|x2 %x2|y2 %y2"
     export function oled_line(x1: number, y1: number, x2: number, y2: number, color: number = 1) {
         oled_font_size(0)
         let list = [];
@@ -531,7 +531,7 @@ namespace ezstartkit {
     }
 
     //% weight=7
-    //% blockId="OLED_rect" block="OLED draw a rectangle at|x %x|y %y|and w %w|h %h"
+    //% blockId="OLED_rect" block="OLED draw a rectangle at|x %x|y %y|w %w|h %h"
     export function oled_rect(x: number, y: number, w: number, h: number, color: number = 1) {
         oled_font_size(0)
         let list = [];
@@ -569,7 +569,7 @@ namespace ezstartkit {
 
     //% weight=7
     //% deg.min=0 deg.max=360
-    //% blockId="OLED_circle" block="OLED draw a circle at|x %x|y %y|radius: r %r|degree: deg %deg"
+    //% blockId="OLED_circle" block="OLED draw a circle at|x %x|y %y|radius: %r|degree: %deg"
     export function oled_circle(x: number, y: number, r: number, deg: number, color: number = 1) {
         oled_font_size(0)
         let list = [];
